@@ -1,0 +1,12 @@
+ipyyhon
+ipython
+python3 -n ipython
+python3 -m ipython
+python3 -m IPython
+brew install python3
+where python
+where python3
+python3 --version
+pip3 --version
+pip3 install --upgrade pip
+pip3 install ipython
