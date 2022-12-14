@@ -72,6 +72,10 @@ def facialrecognition(imageinput):
         else: #it's a file
             image=cv2.imread(imageinput)
             image = imutils.resize(image,width=250) #resize
+    else:
+        image = cv2.imread(imageinput)
+        image = imutils.resize(image,width=250) #resize
+
 
     # fig, ax = plt.subplots()
     # plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
